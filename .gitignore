@@ -1,0 +1,51 @@
+# --- DEPENDENCIAS ---
+node_modules/
+.pnpm-debug.log*
+
+# --- COMPILACIÓN Y SALIDA ---
+dist/
+dist-ssr/
+dev-dist/
+*.local
+
+# --- VARIABLES DE ENTORNO (SEGURIDAD) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+!.env.demo
+
+# --- CACHE Y TEMPORALES ---
+.eslintcache
+.stylelintcache
+.vite
+.parcel-cache
+.turbo
+.next
+
+# --- HUSKY ---
+.husky/_
+
+# --- CONFIGURACIÓN DE EDITORES / IDES ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.patch
+*.diff
+
+Thumbs.db
+.DS_Store
+*.log
+sentry-symbols.dat
+
+/coverage
+/.nyc_output
+
+.docker-compose.override.yml
