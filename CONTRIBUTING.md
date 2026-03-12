@@ -57,13 +57,13 @@ git switch -c auth/feature/login-form
 
 Para evitar conflictos masivos, seguiremos una **Arquitectura basada en Features**:
 
-- **Tu carpeta**: Todo tu código debe vivir en `src/features/[tu-microservicio]/`.
+- **Tu carpeta**: Todo tu código debe vivir en `src/modules/[tu-microservicio]/`.
 - **Componentes Globales**: No modifiques `src/components/common/` sin consultar al equipo.
 - **Estilos**: Usa módulos de CSS (`.module.css`) o Tailwind para no afectar las vistas de otros equipos.
 
 ### En los Microservicios
 
-- Cada microservicio debe vivir en su propia carpeta dentro de `services/` (ej. `services/auth`).
+- Cada microservicio debe vivir en su propia carpeta dentro de `src/modules/[tu-microservicio]/services/` (ej. `src/modules/[tu-microservicio]/services/auth`).
 
 ## Envío de Cambios
 
