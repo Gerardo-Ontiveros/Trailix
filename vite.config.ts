@@ -19,12 +19,33 @@ export default defineConfig({
         description:
           'Tu dosis diaria de cine. Explora y descubre los últimos trailers de películas y series en un solo lugar.',
         start_url: '/',
-        display: 'standalone',
+        display: 'minimal-ui',
         theme_color: '#ffffff',
-        icons: [],
+        icons: [
+          {
+            sizes: '192x192',
+            src: 'https://bhxjicxiqcykhomkpmpb.supabase.co/storage/v1/object/public/assets/android-chrome-192x192.png',
+            type: 'image/png',
+          },
+          {
+            sizes: '512x512',
+            src: 'https://bhxjicxiqcykhomkpmpb.supabase.co/storage/v1/object/public/assets/android-chrome-512x512.png',
+            type: 'image/png',
+          },
+          {
+            sizes: '180x180',
+            src: 'https://bhxjicxiqcykhomkpmpb.supabase.co/storage/v1/object/public/assets/apple-touch-icon-180x180.png',
+            type: 'image/png',
+          },
+        ],
       },
     }),
   ],
+  server: {
+    port: 5173,
+    host: true,
+    allowedHosts: true,
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
