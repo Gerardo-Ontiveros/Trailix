@@ -7,7 +7,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <a href="http://www.tailix.reexxy.com/" target="_blank" rel="noopener noreferrer">
-    <img width="300px" src="https://imgur.com/LmwFQFW.png" alt="Logo" width="800">
+    <img width="150px" src="https://imgur.com/LmwFQFW.png" alt="Logo">
 </a>
 
 ## Trailix
@@ -53,7 +53,7 @@ Trailix es una moderna SPA de transmisión de tráilers con entrega de video con
 ### Prerequisitos
 
 - NVM (recomendado para asegurar versión de Node) ver [documentacion oficial](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
-
+> Deberas tener instalado NVM previamente ve la documentacion para saber como instalarlo
 ```sh
 nvm install 24.14.0
 nvm use 24.10.0
@@ -104,11 +104,11 @@ Aqui tienes una guia rapida para contribuir de manera correcta al proyecto:
 2. Clona tu [_fork_](https://github.com/Gerardo-Ontiveros/Trailix/fork) (`git clone <URL del fork>`).
 3. Añade el repositorio original como remoto (`git remote add upstream <URL del repositorio original>`).
 4. Crea tu Rama de funcionalidad (`git switch -c microservicio/tipo/nombre`).
-5. Realiza tus cambios (`git commid 'tipo: caracteristica`).
+5. Realiza tus cambios (`git commit 'tipo: caracteristica`).
 6. Haz un Push a la Rama (`git push origin microservicio/tipo/nombre`).
 7. Abre una [_pull requeset_](https://github.com/Gerardo-Ontiveros/Trailix/pulls).
 
-Consulta [guia de contribuición](https://github.com/Gerardo-Ontiveros/Trailix/blob/master/CONTRIBUTING.md) para saber como puedes empezar a colaborar de mejor manera.
+Consulta [guia de contribuición](https://github.com/Gerardo-Ontiveros/Trailix/blob/main/CONTRIBUTING.md) para saber como puedes empezar a colaborar de mejor manera.
 
 **Contribuidores:**
 
