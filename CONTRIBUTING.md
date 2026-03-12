@@ -60,6 +60,10 @@ Para evitar conflictos masivos, seguiremos una **Arquitectura basada en Features
 - **Tu carpeta**: Todo tu código debe vivir en `src/modules/[tu-microservicio]/`.
 - **Componentes Globales**: No modifiques `src/components/common/` sin consultar al equipo.
 - **Estilos**: Usa módulos de CSS (`.module.css`) o Tailwind para no afectar las vistas de otros equipos.
+  
+Importaciones:
+
+- **Para importar componentes**: Para hacer las importaciones deberas utilizar `@/carpeta/` evita utilizar `../..`
 
 ### En los Microservicios
 
