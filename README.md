@@ -7,7 +7,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <a href="http://www.tailix.reexxy.com/" target="_blank" rel="noopener noreferrer">
-    <img width="150px" src="https://imgur.com/LmwFQFW.png" alt="Logo">
+    <img width="150px" src="https://imgur.com/WdEejs7.png" alt="Logo">
 </a>
 
 ## Trailix
